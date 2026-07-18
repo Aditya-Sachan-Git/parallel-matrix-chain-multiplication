@@ -52,15 +52,15 @@ This project compares sequential execution with multiple OpenMP parallelization 
 ## Project Structure
 
 ```
-Input Generator
-        │
-        ▼
-Input Dataset
-        │
-        ▼
-Sequential MCM
-        │
-        ├──────────────┐
+        Input Generator
+               │
+               ▼
+         Input Dataset
+               │
+               ▼
+        Sequential MCM
+               │
+        ┌──────|───────┐
         ▼              ▼
  Parallel 4      Parallel 8
         │              │
@@ -69,7 +69,7 @@ Sequential MCM
         Parallel 12
                │
                ▼
- Performance Comparison
+    Performance Comparison
 ```
 
 ---
