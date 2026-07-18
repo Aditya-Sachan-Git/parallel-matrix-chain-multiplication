@@ -58,15 +58,15 @@ This project compares sequential execution with multiple OpenMP parallelization 
          Input Dataset
                │
                ▼
-        Sequential MCM
+         Sequential MCM
                │
         ┌──────|───────┐
         ▼              ▼
- Parallel 4      Parallel 8
+   Parallel 4      Parallel 8
         │              │
         └──────┬───────┘
                ▼
-        Parallel 12
+          Parallel 12
                │
                ▼
     Performance Comparison
